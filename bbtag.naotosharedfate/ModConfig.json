@@ -15,7 +15,41 @@
   "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "bbtag.naotosharedfate.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GameBananaDependencies": {
+      "IdToConfigMap": {
+        "reloaded.universal.redirector": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 51225
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "reloaded.universal.redirector": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Universal.Redirector",
+            "UseReleaseTag": false,
+            "AssetFileName": ""
+          },
+          "ReleaseMetadataName": "Reloaded.Universal.Redirector.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
   "IsUniversalMod": false,
   "ModDependencies": [
     "reloaded.universal.redirector"
