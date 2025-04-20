@@ -2739,13 +2739,13 @@ def DanganKakushiB():
 
     def upon_IMMEDIATE():
         AttackDefaults_SuperProjectile()
-        AttackLevel(4)
+        AttackLevel(5) # was 4
         Damage(4000)
         MinimumDamage(25)
         AttackP2(60)
-        Hitstop(12)
+        Hitstop(12) #WAS12
         PushbackX(1000)
-        AirUntechableTime(30)
+        AirUntechableTime(30) #was 30
         AirPushbackY(-100000)
         AirPushbackX(100000)
         GroundedHitstunAnimation(AIR_TAILSPIN)

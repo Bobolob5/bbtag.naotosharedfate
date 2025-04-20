@@ -4958,15 +4958,15 @@ def WalkingShotEX():
                     ScreenShake(10000, 0)
 
 
-if SLOT_54:
-    if SLOT_18 == 240:
-        sendToLabel(9)
-    if not SLOT_158:
-        clearUponHandler(upon_EVERY_FRAME)
-        sendToLabel(9)
-    if not SLOT_21:
-        clearUponHandler(upon_EVERY_FRAME)
-        sendToLabel(9)
+    if SLOT_54:
+        if SLOT_18 == 240:
+            sendToLabel(9)
+        if not SLOT_158:
+            clearUponHandler(upon_EVERY_FRAME)
+            sendToLabel(9)
+        if not SLOT_21:
+            clearUponHandler(upon_EVERY_FRAME)
+            sendToLabel(9)
     endUpon()
     sprite('na433_00', 3)
     sprite('na433_01', 3)
